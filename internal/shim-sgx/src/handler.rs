@@ -65,8 +65,8 @@ impl<'a> Handler<'a> {
     ) -> Self {
         Self {
             aex,
-            ctx,
             layout,
+            ctx,
             block,
         }
     }
